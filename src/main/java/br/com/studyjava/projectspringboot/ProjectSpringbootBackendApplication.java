@@ -6,9 +6,10 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = "br.com.studyjava")
+@ComponentScan(basePackages = "br.com.studyjava") //percorre os packages apartir do br.com.studyjava
 public class ProjectSpringbootBackendApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectSpringbootBackendApplication.class, args);
+		System.out.println("Olá, branch");
 	}
 }

@@ -10,6 +10,5 @@ import org.springframework.context.annotation.ComponentScan;
 public class ProjectSpringbootBackendApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectSpringbootBackendApplication.class, args);
-		System.out.println("Olá, branch");
 	}
 }
